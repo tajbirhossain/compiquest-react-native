@@ -75,82 +75,60 @@ export const styles = StyleSheet.create({
     },
 
 
-    searchContainer: {
-        width: "100%",
-        display: "flex",
-        flexDirection: "row",
-        alignItems: "center",
-        justifyContent: "space-between",
-        zIndex: 1,
-        marginBottom: 35,
-    },
-    searchInp: {
-        flex: 1,
-        height: 45,
-        borderRadius: 8,
-        backgroundColor: "#fff",
-        fontFamily: "font-regular",
-        paddingLeft: 10,
-        paddingRight: 6,
-        elevation: 5,
-        shadowColor: '#000',
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.1,
-        shadowRadius: 2,
-        zIndex: 1,
-    },
 
-
-
-    examContainer: {
+    performanceWrap: {
         width: "100%",
+        paddingTop: 13,
+        paddingBottom: 13,
+        borderColor: "#00253d",
+        borderTopWidth: 2,
+        borderBottomWidth: 2,
+        marginBottom: 30,
     },
-    singleExam: {
-        width: "100%",
-        backgroundColor: "#fff1ec",
-        elevation: 5,
-        shadowColor: '#000',
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.1,
-        shadowRadius: 2,
-        borderRadius: 8,
-        padding: 16,
-        marginBottom: 15,
-    },
-    examHeading: {
+    performanceText: {
+        fontSize: 19,
         fontFamily: "font-bold",
+        textAlign: "center",
+        color: "#00253d",
+    },
+    examResTop: {
+        marginBottom: 40,
+    },
+    examName: {
         fontSize: 18,
-        marginBottom: 16,
+        fontFamily: "font-bold",
+        marginBottom: 10,
     },
-    examInfoRow: {
-        display: "flex",
+    totalMark: {
+        fontSize: 14,
+        fontFamily: "font-medium",
+    },
+    markCount: {
+        fontFamily: "font-bold",
+    },
+
+
+    singleRes: {
+        width: "100%",
+        display: 'flex',
         flexDirection: "row",
         alignItems: "center",
-        marginBottom: 13,
+        paddingTop: 20,
+        paddingBottom: 20,
+        borderBottomColor: "#ccc",
+        borderBottomWidth: 1,
     },
-    examRowLeft: {
-        width: "55%",
-        fontFamily: "font-medium",
-        fontSize: 14,
-    },
-    examRowRight: {
-        width: "45%",
-        fontFamily: "font-bold",
-        fontSize: 14,
-    },
-    resultBtn: {
-        width: 130,
-        height: 42,
-        borderRadius: 50,
-        backgroundColor: "#00253d",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-    },
-    resultBtnText: {
-        fontFamily: "font-medium",
+    resLeft: {
+        width: "60%",
+        paddingRight: 15,
         fontSize: 15,
-        color: "#fff",
+        fontFamily: "font-bold",
     },
+    resRight: {
+        width: "40%",
+        fontSize: 15,
+        fontFamily: "font-medium",
+        color: "#00253d",
+    }
 
 })

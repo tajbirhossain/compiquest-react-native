@@ -6,10 +6,6 @@ import BouncyCheckbox from "react-native-bouncy-checkbox";
 
 
 const Preload = () => {
-    const [isChecked, setIsChecked] = useState(false)
-    const CustomLabel = ({ text, checkedValue, changeChecked }) => (
-        <Text style={{ marginLeft: 6, color: "black" }} onPress={() => changeChecked(!checkedValue)}>{text}</Text>
-    );
 
     return (
         <View style={styles.container}>

@@ -75,82 +75,77 @@ export const styles = StyleSheet.create({
     },
 
 
-    searchContainer: {
-        width: "100%",
+
+
+    singleQuestionWrap: {
+        marginBottom: 40,
+    },
+    questionTop: {
         display: "flex",
         flexDirection: "row",
         alignItems: "center",
-        justifyContent: "space-between",
-        zIndex: 1,
-        marginBottom: 35,
+        marginBottom: 20,
     },
-    searchInp: {
-        flex: 1,
-        height: 45,
-        borderRadius: 8,
-        backgroundColor: "#fff",
-        fontFamily: "font-regular",
-        paddingLeft: 10,
-        paddingRight: 6,
-        elevation: 5,
-        shadowColor: '#000',
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.1,
-        shadowRadius: 2,
-        zIndex: 1,
-    },
-
-
-
-    examContainer: {
-        width: "100%",
-    },
-    singleExam: {
-        width: "100%",
-        backgroundColor: "#fff1ec",
-        elevation: 5,
-        shadowColor: '#000',
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.1,
-        shadowRadius: 2,
-        borderRadius: 8,
-        padding: 16,
-        marginBottom: 15,
-    },
-    examHeading: {
+    questionNo: {
         fontFamily: "font-bold",
-        fontSize: 18,
+        fontSize: 20,
+        marginRight: 15,
+    },
+    questionRes: {
+        fontFamily: "font-medium",
+        color: "#000",
+        fontSize: 17,
+    },
+    questionInfo: {
+        padding: 15,
+        backgroundColor: "#ffe9d480",
+        borderRadius: 8,
+        elevation: 5,
+
+        // Shadow styles for iOS and Android
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.2,
+        shadowRadius: 2,
+    },
+    examName: {
+        fontSize: 16,
+        fontFamily: "font-bold",
         marginBottom: 16,
     },
-    examInfoRow: {
-        display: "flex",
-        flexDirection: "row",
-        alignItems: "center",
-        marginBottom: 13,
-    },
-    examRowLeft: {
-        width: "55%",
-        fontFamily: "font-medium",
+    attemptTitle: {
         fontSize: 14,
+        fontFamily: "font-semibold",
+        marginBottom: 5
     },
-    examRowRight: {
-        width: "45%",
-        fontFamily: "font-bold",
+    attemptAns: {
         fontSize: 14,
+        fontFamily: "font-regular",
+        marginBottom: 10,
     },
-    resultBtn: {
-        width: 130,
-        height: 42,
-        borderRadius: 50,
-        backgroundColor: "#00253d",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
+    corrTitle: {
+        fontSize: 14,
+        fontFamily: "font-semibold",
+        marginBottom: 5
     },
-    resultBtnText: {
-        fontFamily: "font-medium",
-        fontSize: 15,
-        color: "#fff",
+    corrAns: {
+        fontSize: 14,
+        fontFamily: "font-regular",
+        marginBottom: 25,
     },
+    solutionText: {
+        fontSize: 12,
+        fontFamily: "font-regular",
+        marginBottom: 4,
+    },
+    examSolImgWrap: {
+        width: "100%",
+        height: 150,
+        backgroundColor: "#fff",
+    },
+    examSolution: {
+        width: "100%",
+        height: 100,
+    }
 
 })
